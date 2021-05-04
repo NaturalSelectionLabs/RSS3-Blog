@@ -1,0 +1,239 @@
+<!doctype html>
+
+<html lang="en">
+
+<!--
+  Apply head only for dev environment, this is required for jekyll to
+  insert livereload scripts
+-->
+
+  <head>
+
+
+
+  <meta charset="utf-8">
+
+
+<title>Upgrading Guide from v1 to v2 - Almace Scaffolding</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- Define a description for better SEO result -->
+<meta name="description" content="Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor....">
+
+<!-- Cheome Web App theme color -->
+<meta name="theme-color" content="#ff00b4">
+
+<!-- Feed URL -->
+<!-- <link rel="alternate" href="/feed.xml" type="application/atom+xml"> -->
+
+<!-- Site icons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="icon" href="/favicon.png" type="image/png"><link rel="icon" href="/favicon.svg?assets-inline-assets-keep" sizes="any" type="image/svg+xml"><link rel="mask-icon" href="/mask-icon.svg" color="#ff00b4">
+
+<!-- Chrome Web App manifest -->
+<link rel="manifest" href="/manifest.json">
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="/assets/themes/curtana/css/app.css?assets-inline">
+
+<!-- Canonical links, avoid duplicate content problems -->
+<link rel="canonical" href="http://0.0.0.0:4321/upgrading-from-v1-to-v2.html">
+
+<!-- DNS prefetching for static files -->
+
+
+<!-- Head hooks -->
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE08LTMYMT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BE08LTMYMT');
+</script>
+  </head>
+
+<!-- Open Graph and Twitter Cards support -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Almace Scaffolding">
+<meta property="og:title" content="Upgrading Guide from v1 to v2">
+<meta property="og:url" content="http://0.0.0.0:4321/upgrading-from-v1-to-v2.html">
+<meta property="og:description" content="Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor....">
+<meta property="og:image" content="http://0.0.0.0:4321/logo.png">
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <meta name="twitter:site" content="@sparanoid">
+
+
+
+  <meta name="twitter:creator" content="@rss3_">
+
+
+
+  <meta property="article:published_time" content="2018-07-23T00:00:00-07:00">
+  <meta property="article:modified_time" content="2021-05-04T00:39:36-07:00">
+  <meta name="twitter:label1" value="Words">
+  <meta name="twitter:data1" value="239 words">
+  <meta name="twitter:label2" value="Reading time">
+  <meta name="twitter:data2" value="1 min">
+
+<!-- Post specified styles -->
+<style data-assets-inline>
+  :root {
+    
+
+    
+
+    
+
+    
+  }
+
+  body {
+    
+  }
+
+  
+  
+    
+</style>
+<!-- Main navigation with current page / categoriy highlighted -->
+<nav class="navigation">
+  <ul>
+    <li >
+        <a href="https://rss3.io">RSS3</a>
+      </li>
+    <li >
+        <a href="/">Blog</a>
+      </li>
+    <li >
+        <a href="">Developer [in prep.]</a>
+      </li>
+    
+  </ul>
+</nav>
+<!-- Main content wrap -->
+<main class="content " role=main>
+  <!-- Post-wide custom CSS -->
+
+
+<!-- Article wrapper, limit width -->
+<article lang="en">
+
+  <!-- Post title -->
+  <header style="     ">
+
+    <h1 class="" title="Upgrading Guide from v1 to v2" data-title="Upgrading Guide from v1 to v2">
+      Upgrading Guide from v1 to v2<span class="dot dot--post"> </span>
+    </h1>
+
+    
+      <small>
+        By <span rel="author">RSS3</span>
+        on <time datetime="2018-07-23T00:00:00-07:00">Jul 23, 2018</time>
+      </small>
+    
+
+    
+
+  </header>
+
+  <!-- Post content -->
+  <div class="post-content">
+    <p>Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor. You have to compare your existing projects to <a href="https://github.com/sparanoid/almace-scaffolding/pull/85">this Pull Request</a> side to side to make sure every change you made are synced correctly.</p>
+
+<p>If you’re a casual blogger only change some color variables for your default theme, Curtana in this situation, that’s good, you can migrate to v2 easier: just run <code class="language-plaintext highlighter-rouge">$ grunt update</code>.</p>
+
+<p>You should also migrate your own styles in <code class="language-plaintext highlighter-rouge">user.less</code> to <code class="language-plaintext highlighter-rouge">_user.scss</code> and <code class="language-plaintext highlighter-rouge">_varaibles.scss</code>. Due to Sass limitation, I don’t have variable hoisting features like native CSS or Less at hand, so I have to create two user-defined stylesheets:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">assets/_scss/_variables.scss</code> - This file should contain only Sass variables defined in theme Curtana. It will be loaded at the topmost of theme stylesheet <code class="language-plaintext highlighter-rouge">app.scss</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">assets/_scss/_user.scss</code> - where users create style customization.</li>
+</ul>
+
+<p>From 2.0.0, Almace Scaffolding still has the ability to use Less with Grunt.js, however, it’s wise to write your theme in Sass for better future compatibility.</p>
+
+<p>If you’d like to stick with the Less version:</p>
+
+<ul>
+  <li>v1.1.11 will be the last version that supports Less.</li>
+  <li>Less version of theme Curtana will be available as <code class="language-plaintext highlighter-rouge">amsf/amsf-curtana-less</code>.</li>
+</ul>
+
+
+    
+    
+
+    
+  </div>
+
+</article>
+
+</main>
+<!-- Footer section -->
+
+  <footer class="footer">
+    <ul>
+      <li>
+          <a href="https://rss3.io" target="_blank"><span>RSS3</span></a>
+        </li>
+      <li>
+          <a href="/" target="_blank"><span>Blog</span></a>
+        </li>
+      <li>
+          <a href="/" target="_blank"><span>Developer [in prep.]</span></a>
+        </li>
+      
+        <li><a role="button" aria-label="Our Github Link" href="https://github.com/NaturalSelectionLabs" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url(/assets/svg/Github.svg);"></div> -->
+          
+           <!-- <img height="80%" src="/assets/svg/Github.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Discord Link" href="https://bit.ly/3aSYvPA" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url(/assets/svg/Discord.svg);"></div> -->
+          <!-- <img src="/assets/svg/Discord.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Telegram Link" href="https://bit.ly/3e6FZoV" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url(/assets/svg/Telegram.svg);"></div> -->
+          <!-- <img src="/assets/svg/Telegram.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Twitter Link" href="https://twitter.com/rss3_" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url(/assets/svg/Twitter.svg);"></div> -->
+          <!-- <img src="/assets/svg/Twitter.svg" /> -->
+        </a></li>
+    </ul>
+    <div class="socialMediaContainer">
+      <div class="socialMedia" style="background-image: url(/assets/svg/Github.svg);"></div> 
+      <div class="socialMedia" style="background-image: url(/assets/svg/Discord.svg);"></div> 
+      <div class="socialMedia" style="background-image: url(/assets/svg/Telegram.svg);"></div> 
+      <div class="socialMedia" style="background-image: url(/assets/svg/Twitter.svg);"></div>
+    </div>
+  </footer>
+
+
+<!-- Theme scripts -->
+<script src="/assets/themes/curtana/js/app.js?assets-inline"></script>
+
+<!-- User scripts -->
+<script src="/assets/js/user.js?assets-inline"></script>
+
+<!-- Lightense Images -->
+
+
+<!-- Service Worker  -->
+
+
+<!-- Google Analytics -->
+
+
+<!-- Foot hooks -->
+
+
+<!-- Finale -->
+</html>

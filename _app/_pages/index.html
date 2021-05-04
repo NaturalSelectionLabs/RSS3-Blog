@@ -1,0 +1,31 @@
+---
+layout: default
+permalink: /
+thumb_force_logo: true
+---
+
+{%- include amsf/core -%}
+
+<!-- Article wrapper, limit width -->
+<article>
+
+  <!-- Post title -->
+  <header>
+
+    <h1>
+      <!-- RSS3: -->
+      <img class="image-title" src="{{ amsf_user_assets }}/svg/RSS3.svg">
+    </h1>
+
+    <h2 class="subtitle">RSS with human curation</h2>
+
+  </header>
+
+  <div class="page-content">
+
+    {% for post in site.posts%}
+      {%- include themes/{{ site.amsf_theme }}/includes/page-item.html -%}
+    {% endfor %}
+
+  </div>
+</article>

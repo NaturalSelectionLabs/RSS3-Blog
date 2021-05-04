@@ -1,0 +1,101 @@
+[
+
+
+  
+    
+    {
+      "title": "Upgrading Guide from v1 to v2",
+      "permalink": "http://0.0.0.0:4321/upgrading-from-v1-to-v2.html",
+      "link": "http://0.0.0.0:4321/upgrading-from-v1-to-v2.html",
+      "date": "2018-07-23T00:00:00-07:00",
+      
+        "modified": "2021-05-04T00:27:03-07:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "https://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "<p>Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor. You have to compare your existing projects to <a href=\"https://github.com/sparanoid/almace-scaffolding/pull/85\">this Pull Request</a> side to side to make sure every change you made are synced correctly.</p>\n\n<p>If you’re a casual blogger only change some color variables for your default theme, Curtana in this situation, that’s good, you can migrate to v2 easier: just run <code class=\"language-plaintext highlighter-rouge\">$ grunt update</code>.</p>\n\n<p>You should also migrate your own styles in <code class=\"language-plaintext highlighter-rouge\">user.less</code> to <code class=\"language-plaintext highlighter-rouge\">_user.scss</code> and <code class=\"language-plaintext highlighter-rouge\">_varaibles.scss</code>. Due to Sass limitation, I don’t have variable hoisting features like native CSS or Less at hand, so I have to create two user-defined stylesheets:</p>\n\n<ul>\n  <li><code class=\"language-plaintext highlighter-rouge\">assets/_scss/_variables.scss</code> - This file should contain only Sass variables defined in theme Curtana. It will be loaded at the topmost of theme stylesheet <code class=\"language-plaintext highlighter-rouge\">app.scss</code>.</li>\n  <li><code class=\"language-plaintext highlighter-rouge\">assets/_scss/_user.scss</code> - where users create style customization.</li>\n</ul>\n\n<p>From 2.0.0, Almace Scaffolding still has the ability to use Less with Grunt.js, however, it’s wise to write your theme in Sass for better future compatibility.</p>\n\n<p>If you’d like to stick with the Less version:</p>\n\n<ul>\n  <li>v1.1.11 will be the last version that supports Less.</li>\n  <li>Less version of theme Curtana will be available as <code class=\"language-plaintext highlighter-rouge\">amsf/amsf-curtana-less</code>.</li>\n</ul>",
+      "excerpt": "Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor. You have to compare your existing projects to this Pull Request side to side to make sure every change you made are synced correctly.",
+      "languages": null,
+      "categories": [],
+      "tags": []
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Upgrading Guide: v1.1.0",
+      "permalink": "http://0.0.0.0:4321/upgrading-guide-v1.1.0.html",
+      "link": "http://0.0.0.0:4321/upgrading-guide-v1.1.0.html",
+      "date": "2017-01-07T00:00:00-08:00",
+      
+        "modified": "2021-05-04T00:27:07-07:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "https://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "<p>There’re some significant changes in update v1.1.0, action required after you upgrade Almace Scaffolding.</p>\n\n<p>In your front-matter fields:</p>\n\n<ul>\n  <li>Replace all <code class=\"language-plaintext highlighter-rouge\">svg-headline</code>, <code class=\"language-plaintext highlighter-rouge\">img-headline</code> with <code class=\"language-plaintext highlighter-rouge\">heading-img</code>.</li>\n  <li>Replace all <code class=\"language-plaintext highlighter-rouge\">svg-headline-width</code>, <code class=\"language-plaintext highlighter-rouge\">img-headline-width</code> with <code class=\"language-plaintext highlighter-rouge\">heading-img-width</code>.</li>\n  <li>Remove all <code class=\"language-plaintext highlighter-rouge\">svg-headline-height</code>, <code class=\"language-plaintext highlighter-rouge\">img-headline-height</code> as they’re deprecated and no longer available.</li>\n  <li>Add <code class=\"language-plaintext highlighter-rouge\">heading-img-local: true</code> if images are stored right inside your project.</li>\n</ul>\n\n<p>Check the following front-matter data for post thumbnails:</p>\n\n<ul>\n  <li>Replace all <code class=\"language-plaintext highlighter-rouge\">thumb</code> with <code class=\"language-plaintext highlighter-rouge\">thumbnail</code>.</li>\n  <li>Add <code class=\"language-plaintext highlighter-rouge\">thumb/</code> prefix to your filename, ie. <code class=\"language-plaintext highlighter-rouge\">thumbnail: thumb/my-post.png</code>.</li>\n  <li>Add <code class=\"language-plaintext highlighter-rouge\">thumbnail-local: true</code> if thumbnails are stored right inside your project.</li>\n</ul>",
+      "excerpt": "There’re some significant changes in update v1.1.0, action required after you upgrade Almace Scaffolding.",
+      "languages": null,
+      "categories": [],
+      "tags": []
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Jekyll Theme Compatibility",
+      "permalink": "http://0.0.0.0:4321/jekyll-theme-compatibility.html",
+      "link": "http://0.0.0.0:4321/jekyll-theme-compatibility.html",
+      "date": "2016-11-07T00:00:00-08:00",
+      
+        "modified": "2021-05-04T00:27:05-07:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "https://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "<p>With the recent release of Jekyll, it gets the built-in ability to support <a href=\"https://jekyllrb.com/docs/themes/\">themes</a>, since we’ve already added theme support in 2015, the original config variables <code class=\"language-plaintext highlighter-rouge\">theme</code> would be conflicted with the built-in one.</p>\n\n<p>To solve this issue, I’ve renamed our <code class=\"language-plaintext highlighter-rouge\">theme</code> option to <code class=\"language-plaintext highlighter-rouge\">amsf_theme</code>. And here’s what you need to do to resolve compatibility issues after upgrading to latest Almace Scaffolding:</p>\n\n<ul>\n  <li>Rename your original <code class=\"language-plaintext highlighter-rouge\">theme</code> option in <code class=\"language-plaintext highlighter-rouge\">_amsf.yml</code> to <code class=\"language-plaintext highlighter-rouge\">amsf_theme</code>.</li>\n  <li>Add <code class=\"language-plaintext highlighter-rouge\">amsf_theme_url</code> with your theme Git URL.</li>\n  <li>Replace all <code class=\"language-plaintext highlighter-rouge\">site.theme</code> with <code class=\"language-plaintext highlighter-rouge\">site.amsf_theme</code> in your page templates.</li>\n</ul>",
+      "excerpt": "With the recent release of Jekyll, it gets the built-in ability to support themes, since we’ve already added theme support in 2015, the original config variables theme would be conflicted with the built-in one.",
+      "languages": null,
+      "categories": [],
+      "tags": []
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Multiple Themes Support",
+      "permalink": "http://0.0.0.0:4321/multiple-themes-support.html",
+      "link": "http://0.0.0.0:4321/multiple-themes-support.html",
+      "date": "2015-08-18T00:00:00-07:00",
+      
+        "modified": "2021-05-04T00:27:06-07:00",
+      
+      "author": {
+        "name": "Tunghsiao Liu",
+        "url": "https://sparanoid.com/",
+        "email": "t@sparanoid.com"
+      },
+      "content": "<p>From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See <a href=\"/themes.html\">Themes</a> for more information.</p>",
+      "excerpt": "From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See Themes for more information.",
+      "languages": null,
+      "categories": [],
+      "tags": []
+    }
+    
+  
+
+
+]

@@ -1,0 +1,68 @@
+<!-- Footer section -->
+{% unless page.permalink == '/' and site.data.curtana.clean_homepage %}
+  <footer class="footer">
+    <ul>
+      {% for item in site.data.footer %}
+        {%- include amsf/relative_url url=item.url -%}
+        {%- assign item_url = amsf_relative_url -%}
+        {%- assign lowercased_title = item.title | slugify -%}
+        <li>
+          <a href="{{ item_url }}" target="_blank"><span>{{ item.title }}</span></a>
+        </li>
+      {% endfor %}
+        <li><a role="button" aria-label="Our Github Link" href="https://github.com/NaturalSelectionLabs" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Github.svg);"></div> -->
+          
+           <!-- <img height="80%" src="{{amsf_user_assets}}/svg/Github.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Discord Link" href="https://bit.ly/3aSYvPA" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Discord.svg);"></div> -->
+          <!-- <img src="{{amsf_user_assets}}/svg/Discord.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Telegram Link" href="https://bit.ly/3e6FZoV" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Telegram.svg);"></div> -->
+          <!-- <img src="{{amsf_user_assets}}/svg/Telegram.svg" /> -->
+        </a></li>
+        <li><a role="button" aria-label="Our Twitter Link" href="https://twitter.com/rss3_" target="_blank">
+          <!-- <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Twitter.svg);"></div> -->
+          <!-- <img src="{{amsf_user_assets}}/svg/Twitter.svg" /> -->
+        </a></li>
+    </ul>
+    <div class="socialMediaContainer">
+      <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Github.svg);"></div> 
+      <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Discord.svg);"></div> 
+      <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Telegram.svg);"></div> 
+      <div class="socialMedia" style="background-image: url({{amsf_user_assets}}/svg/Twitter.svg);"></div>
+    </div>
+  </footer>
+{% endunless %}
+
+<!-- Theme scripts -->
+<script src="{{ '/js/app.js?assets-inline' | prepend: amsf_theme_assets }}"></script>
+
+<!-- User scripts -->
+<script src="{{ '/js/user.js?assets-inline' | prepend: amsf_user_assets }}"></script>
+
+<!-- Lightense Images -->
+{% if page.plugin == 'lightense' %}
+  <script src="{{ '/js/lightense.min.js?assets-inline' | prepend: amsf_theme_assets }}"></script>
+  <script>
+    window.addEventListener('load', function () {
+      Lightense('p > img:not(.no-lightense),.lightense');
+    }, false);
+  </script>
+{% endif %}
+
+<!-- Service Worker  -->
+{{ amsf_service_worker }}
+
+<!-- Google Analytics -->
+{{ amsf_google_analytics }}
+
+<!-- Foot hooks -->
+{% if page.foot %}
+  {{ page.foot }}
+{% endif %}
+
+<!-- Finale -->
+</html>

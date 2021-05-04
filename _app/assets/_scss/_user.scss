@@ -1,0 +1,160 @@
+//
+// User styles
+// -----------------------------------------------------------------------------
+// NOTE: the following user styles are designed for default theme Curtana
+
+// EXAMPLE: alternative title size
+// By default all heading levels have the same font size, but many people may
+// not like this, so here's an alternative font size stack:
+// .content {
+//   h2 { font-size: 108%; opacity: .8; }
+//   h3 { font-size: 96%;  opacity: .7; }
+//   h4 { font-size: 84%;  opacity: .6; }
+//   h5 { font-size: 72%;  opacity: .5; }
+//   h6 { font-size: 60%;  opacity: .4; }
+// }
+
+// EXAMPLE: alternative post title color
+// This is useful when you're using the custom color scheme.
+// .content { .list h2 a, header h1, header h1 a { color: var(--link-color); } }
+// .external span { background: var(--link-color); }
+
+// EXAMPLE: Custom typography for Chinese Traditional
+// :root {
+//   --fontstack-sans-serif: "Helvetica Neue", "Hiragino Sans GB", Arial, sans-serif;
+//   --fontstack-serif: Georgia, "Hiragino Mincho ProN", serif;
+// }
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-Medium.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 500;
+  }
+  @font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: 600;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+// EXAMPLE: amsf.github.io custom appearance
+:root {
+  --nav-item-space: 0;
+  --link-color-h:78;
+  --link-color-s: 100%;
+  --link-color-s: 50%;
+  --code-color-h: calc(var(--link-color-h) + 10);
+  --code-color-s: calc(var(--link-color-s) * .2 + 40%);
+  --h1: 144px;
+  --h2: 48px;
+  --p: 36px;
+}
+
+@media (max-width: 1080px) {
+  .content header {
+  padding-top: 8vmin;
+  padding-bottom: 8vmin;
+
+  --h1: 96px;
+  --h2: 36px;
+  --p: 24px;
+  }
+}
+
+html, body {
+  font-family: 'Montserrat',sans-serif;
+}
+
+a{
+  padding-bottom: 3px;
+  &:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    color: var(--text-color);
+  }
+}
+
+
+nav{
+  li {
+    padding-right: 3em;
+
+    a{
+      padding-bottom: 1px;
+      &:hover{
+        text-decoration: none;
+        border-bottom: 2px solid var(--link-color);
+      }
+    }
+  }
+}
+
+.content .image-title {
+  width: 50%;
+  height: auto;
+}
+
+.content .subtitle {
+  font-size: var(--h2);
+  opacity: 1;
+  color: #000;
+}
+
+.content .page-content .list {
+  margin-bottom: 1rem;
+}
+
+.content header {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding-top: 8vmin;
+  padding-bottom: 8vmin;
+  margin-bottom: 8vmin;
+  margin-top: 8vmin;
+  margin-left: calc(var(--space-header) * -1)+1;
+  margin-right: calc(var(--space-header) * -1+1);
+  padding-left: 8vmin;
+  padding-right: 8vmin;
+}
+
+
+article {
+  header {
+    background-color: #fff;
+  }
+}
+
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  li {
+    padding-right: 1em;
+  }
+}
+
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  // gap: 1em;
+}
+
+.socialMedia {
+  position: relative;
+  display: inline-block;
+  padding-top: 1em;
+  width: calc(1.5*var(--font-size));
+  height: calc(1.5*var(--font-size));
+  background-position: center;
+  background-size: var(--font-size) auto;
+  background-repeat: no-repeat;
+}

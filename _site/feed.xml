@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Almace Scaffolding</title>
+  <subtitle>Super-fast Jekyll framework</subtitle>
+  <updated>2021-05-04T00:38:15-07:00</updated>
+  <id>http://0.0.0.0:4321/</id>
+  <generator uri="https://sparanoid.com/lab/amsf/" version="2.0.21">Almace Scaffolding</generator>
+
+  <link rel="alternate" type="text/html" hreflang="en" href="http://0.0.0.0:4321/" />
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4321/feed.xml" />
+
+  <author>
+    <name>Tunghsiao Liu</name>
+    <uri>http://0.0.0.0:4321/</uri>
+    <email>t@sparanoid.com</email>
+  </author>
+
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Upgrading Guide from v1 to v2</title>
+        <id>http://0.0.0.0:4321/upgrading-from-v1-to-v2.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/upgrading-from-v1-to-v2.html" />
+        <published>2018-07-23T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-04T00:27:03-07:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor. You have to compare your existing projects to &lt;a href=&quot;https://github.com/sparanoid/almace-scaffolding/pull/85&quot;&gt;this Pull Request&lt;/a&gt; side to side to make sure every change you made are synced correctly.&lt;/p&gt;
+
+&lt;p&gt;If you’re a casual blogger only change some color variables for your default theme, Curtana in this situation, that’s good, you can migrate to v2 easier: just run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ grunt update&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should also migrate your own styles in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;user.less&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_user.scss&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_varaibles.scss&lt;/code&gt;. Due to Sass limitation, I don’t have variable hoisting features like native CSS or Less at hand, so I have to create two user-defined stylesheets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets/_scss/_variables.scss&lt;/code&gt; - This file should contain only Sass variables defined in theme Curtana. It will be loaded at the topmost of theme stylesheet &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;app.scss&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;assets/_scss/_user.scss&lt;/code&gt; - where users create style customization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From 2.0.0, Almace Scaffolding still has the ability to use Less with Grunt.js, however, it’s wise to write your theme in Sass for better future compatibility.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to stick with the Less version:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;v1.1.11 will be the last version that supports Less.&lt;/li&gt;
+  &lt;li&gt;Less version of theme Curtana will be available as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amsf/amsf-curtana-less&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Almace Scaffolding now migrates from Less to Sass, this may make your existing projects non-upgradable, it needs quite a lot of work for you to do the migration if you use a custom theme that it’s powered by Less preprocessor. You have to compare your existing projects to this Pull Request side to side to make sure every change you made are synced correctly.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Upgrading Guide: v1.1.0</title>
+        <id>http://0.0.0.0:4321/upgrading-guide-v1.1.0.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/upgrading-guide-v1.1.0.html" />
+        <published>2017-01-07T00:00:00-08:00</published>
+
+        
+          <updated>2021-05-04T00:27:07-07:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;There’re some significant changes in update v1.1.0, action required after you upgrade Almace Scaffolding.&lt;/p&gt;
+
+&lt;p&gt;In your front-matter fields:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;svg-headline&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img-headline&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heading-img&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Replace all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;svg-headline-width&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img-headline-width&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heading-img-width&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Remove all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;svg-headline-height&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;img-headline-height&lt;/code&gt; as they’re deprecated and no longer available.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;heading-img-local: true&lt;/code&gt; if images are stored right inside your project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check the following front-matter data for post thumbnails:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replace all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumb&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumbnail&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumb/&lt;/code&gt; prefix to your filename, ie. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumbnail: thumb/my-post.png&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;thumbnail-local: true&lt;/code&gt; if thumbnails are stored right inside your project.&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>There’re some significant changes in update v1.1.0, action required after you upgrade Almace Scaffolding.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Jekyll Theme Compatibility</title>
+        <id>http://0.0.0.0:4321/jekyll-theme-compatibility.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/jekyll-theme-compatibility.html" />
+        <published>2016-11-07T00:00:00-08:00</published>
+
+        
+          <updated>2021-05-04T00:27:05-07:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;With the recent release of Jekyll, it gets the built-in ability to support &lt;a href=&quot;https://jekyllrb.com/docs/themes/&quot;&gt;themes&lt;/a&gt;, since we’ve already added theme support in 2015, the original config variables &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt; would be conflicted with the built-in one.&lt;/p&gt;
+
+&lt;p&gt;To solve this issue, I’ve renamed our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt; option to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amsf_theme&lt;/code&gt;. And here’s what you need to do to resolve compatibility issues after upgrading to latest Almace Scaffolding:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rename your original &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;theme&lt;/code&gt; option in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_amsf.yml&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amsf_theme&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amsf_theme_url&lt;/code&gt; with your theme Git URL.&lt;/li&gt;
+  &lt;li&gt;Replace all &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site.theme&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site.amsf_theme&lt;/code&gt; in your page templates.&lt;/li&gt;
+&lt;/ul&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>With the recent release of Jekyll, it gets the built-in ability to support themes, since we’ve already added theme support in 2015, the original config variables theme would be conflicted with the built-in one.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Multiple Themes Support</title>
+        <id>http://0.0.0.0:4321/multiple-themes-support.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/multiple-themes-support.html" />
+        <published>2015-08-18T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-04T00:27:06-07:00</updated>
+        
+
+        <author>
+          <name>Tunghsiao Liu</name>
+          <uri>https://sparanoid.com/</uri>
+          <email>t@sparanoid.com</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See &lt;a href=&quot;/themes.html&quot;&gt;Themes&lt;/a&gt; for more information.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>From version 0.0.31, you can now use multiple themes in Almace Scaffolding. See Themes for more information.</summary>
+        
+      </entry>
+    
+  
+</feed>
