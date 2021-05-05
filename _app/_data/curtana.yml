@@ -16,4 +16,3 @@ colorful_list:  false
 
 # Enable dark mode automatically via `prefers-color-scheme: dark`
 auto_dark_mode: false
-prefers-color-scheme: light

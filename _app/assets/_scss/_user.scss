@@ -38,12 +38,12 @@
   }
   @font-face {
   font-family: 'Montserrat';
-  src: url(../fonts/Montserrat-SemiBold.ttf) format("truetype");
+  src: url(../font/Montserrat-SemiBold.ttf) format("truetype");
   font-style: normal;
   font-weight: 600;
   }
   
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+  // @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 // EXAMPLE: amsf.github.io custom appearance
 :root {
   --nav-item-space: 0;
@@ -80,9 +80,15 @@ a{
     color: var(--text-color);
   }
 }
+// nav:hover {
+//   text-decoration: none;
+//   // border-bottom: 2px solid var(--link-color);
+//   color:#000;
+// }
 
 
-nav{
+
+.navigation{
   li {
     padding-right: 3em;
 
@@ -90,7 +96,9 @@ nav{
       padding-bottom: 1px;
       &:hover{
         text-decoration: none;
-        border-bottom: 2px solid var(--link-color);
+        // border-bottom: 2px solid var(--link-color);
+        color:#000;
+        // background-color: #000;
       }
     }
   }
@@ -137,6 +145,9 @@ footer {
   grid-template-columns: auto auto;
   li {
     padding-right: 1em;
+    a {
+      padding-bottom: 1px;
+    }
   }
 }
 
@@ -146,6 +157,12 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   // gap: 1em;
+  a {
+    padding-bottom: 0px;
+    &:hover {
+      border-bottom: none;
+    }
+  }
 }
 
 .socialMedia {

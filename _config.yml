@@ -121,7 +121,7 @@ assets:         /assets
 # Define your main feed URL, this will be only used in your templates
 #
 # Default:      /feed.xml
-feed:           /feed.xml
+# feed:           /feed.xml
 
 # Site full URL
 #
@@ -141,7 +141,7 @@ url:            https://blog.rss3.io
 # grabs the first image of your post as post featured image.
 #
 # Default:      https://d349cztnlupsuf.cloudfront.net
-file:           https://d349cztnlupsuf.cloudfront.net
+# file:           https://d349cztnlupsuf.cloudfront.net
 
 # Download files URL
 #
@@ -152,7 +152,7 @@ file:           https://d349cztnlupsuf.cloudfront.net
 # download files. That's it. Remove or ignore this if you don't need it.
 #
 # Default:      https://d1bmx7s6749k4k.cloudfront.net
-download:       https://d1bmx7s6749k4k.cloudfront.net
+# download:       https://d1bmx7s6749k4k.cloudfront.net
 
 # Colors
 #

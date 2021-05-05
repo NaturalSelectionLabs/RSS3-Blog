@@ -12,3 +12,22 @@ default:
   web:          https://rss3.io/
   twitter:      rss3_
 
+joshua:
+  name:         Joshua
+  email:        joshua@rss3.io
+
+diygod:
+  name:         DIYgod
+  email:        diygod@rss3.io
+
+anny:
+  name:         Anny
+  email:        zuia@rss3.io
+
+tu:
+  name:         Usagi
+  email:        tu@rss3.io
+
+atlas:
+  name:         Atlas
+  email:        atlas@rss3.io

@@ -1,3 +1,3 @@
-Sitemap: http://0.0.0.0:4321/sitemap.xml
+Sitemap: https://blog.rss3.io/sitemap.xml
 
 User-agent: *

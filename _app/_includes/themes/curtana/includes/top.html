@@ -25,7 +25,7 @@
 <meta name="theme-color" content="{{ amsf_theme_color }}">
 
 <!-- Feed URL -->
-<!-- <link rel="alternate" href="{{ amsf_feed_url }}" type="application/atom+xml"> -->
+<link rel="alternate" href="{{ amsf_feed_url }}" type="application/atom+xml">
 
 <!-- Site icons -->
 {{ amsf_favicons }}
@@ -35,7 +35,8 @@
 
 <!-- Main CSS -->
 <link rel="stylesheet" href="{{ '/css/app.css?assets-inline' | prepend: amsf_theme_assets }}">
-
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <!-- Canonical links, avoid duplicate content problems -->
 <link rel="canonical" href="{{ amsf_page_url }}">
 
@@ -48,14 +49,5 @@
 {% endif %}
 
 {% if site.dev == true %}
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BE08LTMYMT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BE08LTMYMT');
-</script>
   </head>
 {% endif %}
