@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Stage One Roadmap 
+author: joshua
 ---
 
 It is always important to share what we expect to achieve and the trajectory we plan to get there. Giving date promises has always been a bad idea since the level of uncertainties can always force the team to face a choice between missing the deadline or shipping something we are not proud of. So here, we will be talking about the things we are about to finish in the first stage of RSS3. 
 
 We expect our work on RSS3 at this stage to be focusing on building the fundamentals of our protocol and product. So here are some of the most important things we will be working on, and their relative pace and sequence.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6df26fa-e709-4665-bffe-bf10714d4ddb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6df26fa-e709-4665-bffe-bf10714d4ddb/Untitled.png)
+![https://i.imgur.com/j8VyuWp.png](https://i.imgur.com/j8VyuWp.png)
 
 ### RSS3-1.0:
 
@@ -34,3 +35,4 @@ These are the core things that we will be working on in the next 6 to 9 months, 
 Stay tuned!
 
 Joshua & The RSS3 Team
+ 

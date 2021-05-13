@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Here comes RSS3
+author: joshua
 ---
 
 The right to create, disseminate and distribute information should not be in the hands of centralized governing. It is the basic right of cyber lives.
