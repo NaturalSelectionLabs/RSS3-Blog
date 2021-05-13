@@ -46,6 +46,16 @@
 <!-- Canonical links, avoid duplicate content problems -->
 <link rel="canonical" href="{{ amsf_page_url }}">
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V7Z9QCXW8X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V7Z9QCXW8X');
+</script>
 <!-- DNS prefetching for static files -->
 {% if page.permalink == "/" %}<link rel="dns-prefetch" href="{{ site.file }}">{% endif %}
 

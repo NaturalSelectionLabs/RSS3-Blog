@@ -1,9 +1,204 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RSS3</title><subtitle>RSS with human curation</subtitle><updated>2021-05-05T00:58:32-07:00</updated><id>https://blog.rss3.io/</id><generator uri="https://sparanoid.com/lab/amsf/" version="2.0.21">Almace Scaffolding</generator><link rel="alternate" type="text/html" hreflang="en" href="https://blog.rss3.io/" /><link rel="self" type="application/atom+xml" href="https://blog.rss3.io/feed.xml" /><author><name>RSS3</name><uri>https://blog.rss3.io/</uri><email>contact@rss3.io</email></author><entry><title>A Test Blog</title><id>https://blog.rss3.io/a-test-blog.html</id><link rel="alternate" type="text/html" href="https://blog.rss3.io/a-test-blog.html" /><published>2021-05-05T00:00:00-07:00</published><updated>2021-05-05T00:36:44-07:00</updated><author><name>RSS3</name><uri>https://rss3.io/</uri><email>contact@rss3.io</email></author><content type="html" xml:base="https://blog.rss3.io/">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom">
+  <title>RSS3</title>
+  <subtitle>RSS with human curation</subtitle>
+  <updated>2021-05-12T23:10:08-07:00</updated>
+  <id>http://0.0.0.0:4321/</id>
+  <generator uri="https://sparanoid.com/lab/amsf/" version="2.0.21">Almace Scaffolding</generator>
+
+  <link rel="alternate" type="text/html" hreflang="en" href="http://0.0.0.0:4321/" />
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4321/feed.xml" />
+
+  <author>
+    <name>RSS3</name>
+    <uri>http://0.0.0.0:4321/</uri>
+    <email>contact@rss3.io</email>
+  </author>
+
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Stage One Roadmap</title>
+        <id>http://0.0.0.0:4321/stage-one-roadmap.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/stage-one-roadmap.html" />
+        <published>2021-05-12T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-12T22:38:19-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
           
-            &lt;p&gt;This is a test blog.&lt;/p&gt;
+            &lt;p&gt;It is always important to share what we expect to achieve and the trajectory we plan to get there. Giving date promises has always been a bad idea since the level of uncertainties can always force the team to face a choice between missing the deadline or shipping something we are not proud of. So here, we will be talking about the things we are about to finish in the first stage of RSS3.&lt;/p&gt;
+
+&lt;p&gt;We expect our work on RSS3 at this stage to be focusing on building the fundamentals of our protocol and product. So here are some of the most important things we will be working on, and their relative pace and sequence.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/j8VyuWp.png&quot; alt=&quot;https://i.imgur.com/j8VyuWp.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;rss3-10&quot;&gt;RSS3-1.0:&lt;/h3&gt;
+
+&lt;p&gt;We will be shipping a stable version of RSS3 standard that is open, clean and efficient. It will be focusing on cyber personas and how they create and communicate information. The standard makes it possible for every cyber persona to be a information hub itself.&lt;/p&gt;
+
+&lt;h3 id=&quot;rss3-extension&quot;&gt;RSS3 Extension:&lt;/h3&gt;
+
+&lt;p&gt;We will be building a browser extension that helps users painlessly create and update their RSS3 files in a fashion they are already familiar with. This is the first step towards a future where everyone will be posting on their RSS3 files.&lt;/p&gt;
+
+&lt;h3 id=&quot;rss3hub-alpha&quot;&gt;RSS3Hub Alpha:&lt;/h3&gt;
+
+&lt;p&gt;We will be having a temporary centralized hosting and indexing service that handles our protocol design, testing and alpha testers. It will be like RSSHub (&lt;a href=&quot;https://github.com/DIYgod/RSSHub&quot;&gt;https://github.com/DIYgod/RSSHub&lt;/a&gt;) only for RSS3 plus indexing and update support. Also, there will be a web app for users to interact with the hub as well.&lt;/p&gt;
+
+&lt;h3 id=&quot;rss3hub-beta&quot;&gt;RSS3Hub Beta:&lt;/h3&gt;
+
+&lt;p&gt;Right after the testing of RSS3Hub Alpha, we will be working on RSS3Hub Beta which will be distributed. Everyone will be able to run a node and contributed to the network. We will be giving some credits to people who join the beta test, which will be converted into tokens, if there is any.&lt;/p&gt;
+
+&lt;h3 id=&quot;superfollow-dapplet&quot;&gt;SuperFollow Dapplet&lt;/h3&gt;
+
+&lt;p&gt;Together with Mask Network (&lt;a href=&quot;https://mask.io/&quot;&gt;https://mask.io/&lt;/a&gt;), we will create the SuperFollow Dapplett on Twitter which will add the onlyfans feature on Twitter for any Mask and RSS3 users. The Dapplett will be truly decentralized and we expect it to be the first step for distributed content monetization for creators.&lt;/p&gt;
+
+&lt;p&gt;These are the core things that we will be working on in the next 6 to 9 months, and more are yet to come.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+
+&lt;p&gt;Joshua &amp;amp; The RSS3 Team&lt;/p&gt;
+
 
           
           
         
       
-        </content><summary>This is a test blog.</summary></entry></feed>
+        </content>
+
+        
+          <summary>It is always important to share what we expect to achieve and the trajectory we plan to get there. Giving date promises has always been a bad idea since the level of uncertainties can always force the team to face a choice between missing the deadline or shipping something we are not proud of. So here, we will be talking about the things we are about to finish in the first stage of RSS3.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Here comes RSS3</title>
+        <id>http://0.0.0.0:4321/here-comes-RSS3.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/here-comes-RSS3.html" />
+        <published>2021-05-11T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-12T22:38:19-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;The right to create, disseminate and distribute information should not be in the hands of centralized governing. It is the basic right of cyber lives.&lt;/p&gt;
+
+&lt;p&gt;Gradually over the past two decades, contents and links have been controlled by several data superpowers, who then eats all the profits, privacy and freedom. This centralization also resulted in a terrible environment of user experience innovations: No matter how well your design and engineer your application, there is no way to compete with the data monopolies.&lt;/p&gt;
+
+&lt;p&gt;The world has been eager for a new way of constructing social and content networks. RSS used to be the pioneer of its time, now it’s time for us to pick up the baton and carry on.&lt;/p&gt;
+
+&lt;p&gt;Derived from the best out of RSS, RSS3 is an open protocol designed for content and social networks in the Web 3.0 era.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-ideologies-we-carry&quot;&gt;The Ideologies We Carry&lt;/h2&gt;
+
+&lt;h3 id=&quot;open-source&quot;&gt;Open Source&lt;/h3&gt;
+
+&lt;p&gt;It goes without saying that the whole RSS3 project, including the standard and protocol itself and all other supporting layers like hosting and indexing should be open source. Everyone should have the right to inspect and understand what the code is and how it works. Also, being open-source gives all developers a direct way to contribute to all parts of the project.&lt;/p&gt;
+
+&lt;p&gt;We will encourage all applications that utilize the protocol to be open-source as well. Otherwise, users won’t be trusting them with their valuable private keys. Chances are that malicious and non-open-source applications will be eliminated by market competitions while data monopoly no longer exists.&lt;/p&gt;
+
+&lt;p&gt;Right now, people are forced to trust centralized parties for what a internet service actually does. There are of course big brands to trust, like Facebook, Google or Amazon. People used to have the idea that “big brands won’t cheat”, but recent incidents have all reminded us that giving anyone the chance to do evil is equally dangerous. We need transparency.&lt;/p&gt;
+
+&lt;h3 id=&quot;distributed-control&quot;&gt;Distributed Control&lt;/h3&gt;
+
+&lt;p&gt;The old RSS was designed to be decentralized but not distributed. And that leads to super sub-centers which still carries too much power similar to centralized architectures. For example, Spotify hosts a great amount of long tail podcasts and, though it still uses RSS for publishing, controls all the RSS files and the audio files.&lt;/p&gt;
+
+&lt;p&gt;The ultimate distributed control is to have every cyber persona control its own data. And this means both indexing files and content file should be under distributed hosting, and the right to edit the files are determined by their key pairs like in Bitcoin or Ethereum. However, it is important to note that this key pair that controls ownership can also be changed by their key holder, which will result in transferring or trading of a certain persona.&lt;/p&gt;
+
+&lt;p&gt;That being said, we still need to keep in mind that general users will take a pretty long time to adopt this idea of keeping ones keys and controlling ones data with them. There will likely be a gradual process which involves efforts from multiple parties.&lt;/p&gt;
+
+&lt;h3 id=&quot;inclusiveness&quot;&gt;Inclusiveness&lt;/h3&gt;
+
+&lt;p&gt;RSS3 and its applications are determined to win against the old giants, so it has to be inclusive in two major ways.&lt;/p&gt;
+
+&lt;p&gt;It starts with the inclusiveness regarding types of applications. Any content or social network is defined by its content form and network structure, where network structure is determined by type of links and mechanism of discovery. Facebook, Twitter, Instagram, Whatsapp and TikTok are not that different technically. We need the protocol to support very different types of applications so that innovations can continue to happen.&lt;/p&gt;
+
+&lt;p&gt;Then we need the inclusiveness on modules. Whether it is hosting, indexing or monetizing, RSS3 is designed to be extremely open to modules with different functionalities. This gives RSS3 great flexibility and possibility regarding what it can do in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future-we-aim&quot;&gt;The Future We Aim&lt;/h2&gt;
+
+&lt;h3 id=&quot;empowered-personas&quot;&gt;Empowered Personas&lt;/h3&gt;
+
+&lt;p&gt;Cyber personas will truly have full control regarding the data they produce. Any persona can freely express their thoughts and ideas without being censored by any centralized agency. You can go to any application with your own contents and relationships. No platform can ever force you to labor for it anymore. You, no longer the platform, will be empowered to create, own and monetize.&lt;/p&gt;
+
+&lt;h3 id=&quot;platformless-medias&quot;&gt;Platformless Medias&lt;/h3&gt;
+
+&lt;p&gt;Medias right now are closely bonded with platforms. Each social media platform has its own social graph and primary form of content. The adoption of RSS3 will give medias a chance to have the largest unified group of subscribers, an efficient monetization channel without platform commission, and a freedom to generate contents of various forms.&lt;/p&gt;
+
+&lt;h3 id=&quot;innovative-applications&quot;&gt;Innovative Applications&lt;/h3&gt;
+
+&lt;p&gt;Innovations on user experience has slowed down so dramatically as data superpowers continue to grow. We want to rebuild the prosperous ecology of applications for different user experience to emerge. When users control their data, they can easily choose to move to applications with better design and engineering efforts. Unlike competing for the scale and speed of data monopolizing, now applications will be actually competing for user experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-team-we-build&quot;&gt;The Team We Build&lt;/h2&gt;
+
+&lt;p&gt;To achieve what we aimed for, we formed a distributed organization with high standard. Every member works on RSS3 comes from his/her/their/its true belief and passion. We share the culture below:&lt;/p&gt;
+
+&lt;h3 id=&quot;mission&quot;&gt;Mission&lt;/h3&gt;
+
+&lt;p&gt;To Liberates Contents and Links&lt;/p&gt;
+
+&lt;h3 id=&quot;vision&quot;&gt;Vision&lt;/h3&gt;
+
+&lt;p&gt;Build a world where information and its flow are free, secure, efficient and distributed&lt;/p&gt;
+
+&lt;h3 id=&quot;value&quot;&gt;Value&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Neutrality&lt;/li&gt;
+  &lt;li&gt;Inclusiveness&lt;/li&gt;
+  &lt;li&gt;Equality&lt;/li&gt;
+  &lt;li&gt;Security&lt;/li&gt;
+  &lt;li&gt;Privacy&lt;/li&gt;
+  &lt;li&gt;Meticulosity&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I first was working on an RSS related app in 2018, which led me to the famous RSS project on Github called RSSHub (&lt;a href=&quot;https://github.com/DIYgod/RSSHub&quot;&gt;https://github.com/DIYgod/RSSHub&lt;/a&gt;). The app failed badly and I did not anticipate the experience with that app would do me any favor. I worked on different types of social networks after that and gradually shifted my focus onto decentralized social and content networks. It was not until the second half of 2020, did I suddenly remembered RSSHub and its creator DIYgod (&lt;a href=&quot;https://diygod.me/&quot;&gt;https://diygod.me/&lt;/a&gt;). I connected with him and decided that we could carry some of the best from RSS and build something better. With great help from suji (&lt;a href=&quot;https://twitter.com/suji_yan&quot;&gt;https://twitter.com/suji_yan&lt;/a&gt;), founder at Mask Network, we were able to know more people in the decentralized world and raise our seed round. Suji was actually the first person advised us to change our project name (formerly AIR) to RSS3 :D&lt;/p&gt;
+
+&lt;h2 id=&quot;to-conclude&quot;&gt;To Conclude…&lt;/h2&gt;
+
+&lt;p&gt;It is never easy to build something great. Especially when you are confronting the well established giants. However, as developers, we have a firm belief regarding what is right and what should be done. We must dedicate all what we have to overthrow the old world in order to build a new one.&lt;/p&gt;
+
+&lt;p&gt;If you want to join us, know more about RSS3 or just want to have a talk, we are always happy to connect :D&lt;/p&gt;
+
+&lt;p&gt;All the best ❤️&lt;/p&gt;
+
+&lt;p&gt;— Joshua &amp;amp; The RSS3 Team&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>The right to create, disseminate and distribute information should not be in the hands of centralized governing. It is the basic right of cyber lives.</summary>
+        
+      </entry>
+    
+  
+</feed>
