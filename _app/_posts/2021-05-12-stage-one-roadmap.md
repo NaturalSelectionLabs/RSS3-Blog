@@ -28,7 +28,7 @@ Right after the testing of RSS3Hub Alpha, we will be working on RSS3Hub Beta whi
 
 ### SuperFollow Dapplet
 
-Together with Mask Network ([https://mask.io/](https://mask.io/)), we will create the SuperFollow Dapplett on Twitter which will add the onlyfans feature on Twitter for any Mask and RSS3 users. The Dapplett will be truly decentralized and we expect it to be the first step for distributed content monetization for creators.
+Together with Mask Network ([https://mask.io/](https://mask.io/)), we will create the SuperFollow Dapplett on Twitter which will add the Patreon feature on Twitter for any Mask and RSS3 users. The Dapplett will be truly decentralized and we expect it to be the first step for distributed content monetization for creators.
 
 These are the core things that we will be working on in the next 6 to 9 months, and more are yet to come.
 
