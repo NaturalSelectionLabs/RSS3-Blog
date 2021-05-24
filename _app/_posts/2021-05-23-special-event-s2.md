@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recap All About That RSS3 
-author: usagi
+author: tu
 ---
 
 From nothing to something, this is a story of what was achieved together, with you, with me and with every partner in the community. A huge thank you to everyone who came to the event yesterday. We are in the middle of a tremendous adventure and you are all part of it.  Let's build the RSS3 Ecosystem together!  
