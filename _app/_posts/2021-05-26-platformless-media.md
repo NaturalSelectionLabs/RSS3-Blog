@@ -18,19 +18,19 @@ This is how media becomes platformless: you will definitely still be working and
 
 Here I have a diagram showing the current platform-centric or centralized system.
 
-![A Platform Centric System](https://imgur.com/PRO3UWB)
+![A Platform Centric System](https://i.imgur.com/PRO3UWB.png)
 
 This basically shows how platform holds and, of course, controls all contents and links, which is basically what caused the above problems. 
 
 Here I also have a diagram for a user centric or distributed system.
 
-![A User Centric System](https://imgur.com/zmP7KiB)
+![A User Centric System](https://i.imgur.com/zmP7KiB.png)
 
 In this model, we can see how creators will be controlling their contents, and how users will be controlling their links or subscriptions. That is, creators fully control what to write and users fully control what to see. Platforms will disappear, leaving a place for different applications to compete users with different user experience.
 
 It is noticeable that both creators and users are considered users, which is becoming more and more common since everyone tends to create some content in these years on social medias. A distributed social media has a diagram like this:
 
-![A Distributed Social Media](https://imgur.com/WsvuJGp)
+![A Distributed Social Media](i.https://imgur.com/WsvuJGp.png)
 
 Everyone has his/her/it/their own contents and links, and they control all of them. Still, in order for this thing to work, we need applications. Just like stated before, these applications will be competing with the same set of data but different user experience.
 
