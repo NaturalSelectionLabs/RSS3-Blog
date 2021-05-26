@@ -30,7 +30,7 @@ In this model, we can see how creators will be controlling their contents, and h
 
 It is noticeable that both creators and users are considered users, which is becoming more and more common since everyone tends to create some content in these years on social medias. A distributed social media has a diagram like this:
 
-![A Distributed Social Media](i.https://imgur.com/WsvuJGp.png)
+![A Distributed Social Media](https://i.imgur.com/WsvuJGp.png)
 
 Everyone has his/her/it/their own contents and links, and they control all of them. Still, in order for this thing to work, we need applications. Just like stated before, these applications will be competing with the same set of data but different user experience.
 
