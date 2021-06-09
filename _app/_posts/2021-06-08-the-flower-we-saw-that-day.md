@@ -2,14 +2,9 @@
 layout: post
 title: The Flower We Saw That Day
 author: diygod
-heading-bg: "https://i.imgur.com/b5nSM08.png"
-heading-bg-local: false
-heading-bg-color: "#00c700"
-heading-bg-size: "5001px 2813px"
-heading-bg-position: "center bottom"
-heading-bg-repeat: "repeat"
-heading-bg-text: "#fff"
 ---
+
+![head][1]
 
 Maybe ten years ago, an idea inspired me so much, called "The Spirit of the Internet". I no longer remember where it originated, but everyone generally agrees that the Internet spirit should be open, equal, collaborative, and shared. It is as beautiful as a flower, which touched me as a young man, looking forward to the bright future of the Internet with these characteristics.
 
@@ -41,3 +36,5 @@ For distributed nodes, they will be hosting RSS3 files, maintaining the connecti
 As for platforms, let them fade into history.
 
 Hope that RSS3 can help creators regain their own rights from centralized content platforms, making the Internet what it should be, and re-bring the flower we once saw but has forgotten its name.
+
+[1]: https://i.imgur.com/b5nSM08.png
