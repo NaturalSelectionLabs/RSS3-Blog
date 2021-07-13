@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Flower We Saw That Day
+title: Ever 52-Hertz, Never companionless
 author: nya
 ---
 
