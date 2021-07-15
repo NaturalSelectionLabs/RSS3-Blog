@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>RSS3</title>
   <subtitle>RSS with human curation</subtitle>
-  <updated>2021-05-12T23:10:08-07:00</updated>
+  <updated>2021-07-15T08:27:48-07:00</updated>
   <id>http://0.0.0.0:4321/</id>
   <generator uri="https://sparanoid.com/lab/amsf/" version="2.0.21">Almace Scaffolding</generator>
 
@@ -21,13 +21,302 @@
       
 
       <entry>
+        <title>Ever 52-Hertz, Never companionless</title>
+        <id>http://0.0.0.0:4321/ever-52-hertz-never-companionless.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/ever-52-hertz-never-companionless.html" />
+        <published>2021-07-13T00:00:00-07:00</published>
+
+        
+          <updated>2021-07-13T09:43:11-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/S1NruQF.jpg&quot; alt=&quot;head&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since when such ‘subtle’ adjustments softly crept into my social media life: Posted tweets turned inaccessible due to irrational accounts lockup; Accomplished blogs vanished without a single trace thanks to the sudden so-called maintenance; Collected Playlist shifted grey along with the expiration of platform’s copyright; Followed accounts collapsed overnight whilst the contents got blocked, and the usernames are gone; Subscribed videos should have been laying peacefully in cozy web couches whereas apart from unscrupulous advertisements the mere stuff left was unreasonable delete announcements…&lt;/p&gt;
+
+&lt;p&gt;Shall I hate the platforms? Considering they provide us with a diversity of use case scenarios, perhaps I shouldn’t be too harsh on them. Nonetheless, in terms of exploiting users’ property to their profitable capital, imprisoning users in the scope of their services, monopolizing the jurisdiction on clients’ spiritual assets, the remained respects are long gone. Instead of employing dictatorship towards consumer resources, an optimal platform is preferred acting as a mere carrier and aggregator of digital contents— for customers themselves ought to be entitled to being responsible for their own options, spreading their own recognition as well as collecting their own preferences. Provided the platform fails to satisfy their demands, they can switch to another one. Users, at any time, shall be empowered to take away every single piece of the content properties. Most significantly, the output participants produce rather than the enormous scale the platform extends that counts, for it brings out restless vitality in a sketch-newly-established platform.&lt;/p&gt;
+
+&lt;p&gt;Therefore, during the past three years, I’ve organized my personal blog along with two Fediverse instances; And now, with sincere help of everyone in our great team, we generate RSS3 and this RSS3 based program — Re:ID.&lt;/p&gt;
+
+&lt;p&gt;In the world of RSS3, platforms are no longer THE ONLY RULE. Users, in fact, constitute the heart of our network-Rather than at all kinds of platforms’ mercy, POST FOR YOURSELF; Re:ID offers its users a compatible layer: Not only can they carry on followings and daily sharing through conventional platforms, but also be enabled to synchronize messages tweeting on RSS3 network, bursting cross-platform restraints and meanwhile preserving contents of their free will. Furthermore, in response to requirements about multi-platform and distinct content compositions, we are attaching multi-language/account/platform support for Re:ID, in the hope that different platforms may match corresponding accounts. We are developers as well as extension users, and users will continuously be the end that drives all demands and all our loyalty direct towards.&lt;/p&gt;
+
+&lt;p&gt;Adopting Chrome/Chromium Plug-in developing strategies, we divide kernel codes into Content Script(webpage injection)/Background Service Worker(as its name suggests)/Popup Page(refers to minor ones)/Options Page four modules in total.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Content Script are in charge of anchoring the synchronize button on the webpage while simultaneously mounting hooks for event-Listeners. As users complete their delivering the subjects will be automatically uploaded and integrated into the RSS3 network.&lt;/li&gt;
+  &lt;li&gt;Background Service Worker currently dominates evaluation regarding whether URL of the ongoing invoked label page is supported or not, additionally implement convert and modification to specific icons.&lt;/li&gt;
+  &lt;li&gt;Popup Page plus Options Page produce grants and control for users when accessing resources, along with reveals of instruction information on webpages, it is quite convenient for users to realize functions such as detect/register/invite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given that our network is currently located at the testing stage, membership of a fresh user requires an invitation from whom have participated in the program. Owing to our support for executions on the twitter platform, you may effortlessly deliver tweets involving your address at one click and waiting for invitations to join in; We will also continuously follow associated stamps ready to deliver our most sincere invitations for every user wish to give the brand new RSS3 ecosystem a shot.&lt;/p&gt;
+
+&lt;p&gt;At present, Re:ID as our imaginary prototype already comprises elementary structure/executions/function characters, basically achieve compatibility with Twitter synchronization delivery, also on the shelf of Chrome Web Store(https://chrome.google.com/webstore/detail/re-id/hcioafpcjhamfeiegnnahpjnmnlilkil), which makes it more convenient for downloading and employing the steadily constructed version. Our team is constantly making best efforts to include support for more platforms, optimization for details, and realization for functions. With the iterations and cultivation of RSS3 protocol, more accomplishments for content are ever-evolving; Meanwhile, being a liberty-oriented/anti-centralization/anti-investigation software, Re:ID will maintain based on open source granted by GPL v3 (GitHub: https://github.com/NaturalSelectionLabs/Re-ID ). We welcome companions from the community to join our endeavor at any time, carry on contributing to the ever-flawless RSS3 world.&lt;/p&gt;
+
+&lt;p&gt;The information turbulence is restlessly splitting our media space into isolated pieces. Monopoly platforms attempt to take every advantage of our resources; they intend to shape us into 52Hz whales that send out the companionless call. Nevertheless, we are no longer solitary. We haven’t been solitary. Our associations transcend platform bonds, our values surpass platform restrictions, we possess what we own from the beginning of our life: wisdom, passion, and courage; we create what we genuinely devote to.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in RSS3, and willing to participate in the environment cultivation, you may participate in discussion on Github or contact us in the following channel.&lt;/p&gt;
+
+&lt;p&gt;Telegram:
+&lt;a href=&quot;https://linktr.ee/rss3&quot;&gt;https://linktr.ee/rss3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Discord:
+&lt;a href=&quot;https://discord.gg/Wakve3zzkh&quot;&gt;https://discord.gg/Wakve3zzkh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Twitter:
+[https://twitter.com/rss3&lt;em&gt;](https://twitter.com/rss3&lt;/em&gt;)&lt;/p&gt;
+
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary></summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>The Flower We Saw That Day</title>
+        <id>http://0.0.0.0:4321/the-flower-we-saw-that-day.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/the-flower-we-saw-that-day.html" />
+        <published>2021-06-08T00:00:00-07:00</published>
+
+        
+          <updated>2021-06-09T01:25:26-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/b5nSM08.png&quot; alt=&quot;head&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Maybe ten years ago, an idea inspired me so much, called “The Spirit of the Internet”. I no longer remember where it originated, but everyone generally agrees that the Internet spirit should be open, equal, collaborative, and shared. It is as beautiful as a flower, which touched me as a young man, looking forward to the bright future of the Internet with these characteristics.&lt;/p&gt;
+
+&lt;p&gt;But today, it is slowly being forgotten.&lt;/p&gt;
+
+&lt;p&gt;Content platforms now hold the power of controlling how users disseminate, distribute and obtain contents. Platforms have built high walls, keeping user-generated contents inside as their own treasure. Users actively or forced to give up their rights and hand them over to the platforms. This leads to trashy platforms run wild, which is really unbelievable. When information loses its power to interconnect, “Internet” is no more than just a name.&lt;/p&gt;
+
+&lt;p&gt;Platforms also control what can be created. Everyone should express their ideas freely, without being subject to any type of censorship or restriction from any centralized party. This is a fundamental human right and a basic right for any cyber persona. However, the reality is that platforms have complete control over what can and cannot be created and distributed. They can also remove contents that should belong to their creators at will.&lt;/p&gt;
+
+&lt;p&gt;The Internet shouldn’t be like this.&lt;/p&gt;
+
+&lt;p&gt;The original RSS was the perfect interpretation of the spirit of the Internet and the pioneer of the old era. But it has been having trouble adapting to the new generation. I deeply realized this in the process of developing and maintaining the open-source project RSSHub (&lt;a href=&quot;https://github.com/DIYgod/RSSHub&quot;&gt;https://github.com/DIYgod/RSSHub&lt;/a&gt;). It cannot solve the problems mentioned above since it has fatal issues in its original design. It keeps the original data still on content platforms. It lacks a way for users to connect with one another through contents and become almost impossible to introduce any business logic for developers and content creators to benefit from. Without fundamental changes, it is impossible to adapt to the new era and destined only for the minority.&lt;/p&gt;
+
+&lt;p&gt;Therefore, the Internet needs a new open and inclusive protocol for building social and content networks. We call it RSS3. The proposal has been published on GitHub: &lt;a href=&quot;https://github.com/NaturalSelectionLabs/RSS3&quot;&gt;https://github.com/NaturalSelectionLabs/RSS3&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Change from XML to simplify and more efficient JSON&lt;/li&gt;
+  &lt;li&gt;Cryptographic keypairs are used to authenticate and verify the integrity&lt;/li&gt;
+  &lt;li&gt;Connections between users are recorded through links and backlinks&lt;/li&gt;
+  &lt;li&gt;Content interactions are recorded through upstream and contexts&lt;/li&gt;
+  &lt;li&gt;Contain different types of contents with mime_type&lt;/li&gt;
+  &lt;li&gt;Paging through items_next and list_next to support storing more content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For creators, everyone can upload RSS3 files that conform to the standard format to the distributed network, recording their personal information, relationships, and contents in the files, and hold the private key to hold the full ownership. Modifying permissions, publishing content, following other creators, and interacting with other contents only need users to alter their RSS3 files with ZERO interference from any centralized party.&lt;/p&gt;
+
+&lt;p&gt;For applications, each one can obtain the contents from creators equally. That is, from the RSS3 files of creators. Applications can no longer monopolize and control the contents. Users can switch to any application at any time without worrying about losing existing contents.&lt;/p&gt;
+
+&lt;p&gt;For distributed nodes, they will be hosting RSS3 files, maintaining the connections among RSS3 files and the reverse indexes of content interactions, storing permanent data such as transactions and contributions, and using a transparent algorithm to mark creators and content to achieve a user-controllable recommendation system, etc., of course, you can also get rewards for your own work.&lt;/p&gt;
+
+&lt;p&gt;As for platforms, let them fade into history.&lt;/p&gt;
+
+&lt;p&gt;Hope that RSS3 can help creators regain their own rights from centralized content platforms, making the Internet what it should be, and re-bring the flower we once saw but has forgotten its name.&lt;/p&gt;
+
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary></summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Platformless Media</title>
+        <id>http://0.0.0.0:4321/platformless-media.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/platformless-media.html" />
+        <published>2021-05-26T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-26T10:28:39-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;Media in the internet era has been all about platforms. If anyone tries to start gathering focus and influence by creating contents, no matter it’s your grandma or NYTimes, they need to start by thinking about what platform they want be start with. You want to shoot funny videos? Then TikTok is your place. You want to writing something showing your political point of view? Then Twitter is the place to go. But wait. What if you want your short videos to show on Snapchat and have their users to see them and subscribe to your contents? It turns out that you have to go to Snapchat and start a separate account there, and do it from scratch. And what if you write, say or show something TikTok, Twitter or Instagram don’t like? Well, that’s easy, they just delete that content. If it’s too much beyond the line, then your account will be banned — means that all your contents, all your subscribers and all effort behind them are gone, right after they hit that button.&lt;/p&gt;
+
+&lt;p&gt;Let’s stop there and think about it. What is the ultimate logic between content creators and users? If we go to the most fundamental level here, there will be only two things: contents and links. Contents are the things creators produce which will draw interest from users. And links are the distribution logic that show users the contents they want to see, which also means send contents to users whom creators want to connect. In the scenario above, we see how platforms are taking these two most fundamental elements of any social media and controls it under their autocracy. Yeah, I know that’s how the world works, at least for now. But let’s once again back to the track, what is the most ideal social media ecosystem? To put it simple:&lt;/p&gt;
+
+&lt;p&gt;① Creators should be entitled of right to control every bit of their content. If you like to post something, you post. If you like to edit something, you edit. If you like to delete something, you delete.&lt;/p&gt;
+
+&lt;p&gt;② Whoever creates the link should have the full right to remove or carry the links to whichever application.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, we imagine a different way how media works in the future. You start with any application or “platform” without worrying about content form, application popularity or different policies. You simply start making contents and users from all around the world across all different applications can just see your content, interact with it, and become your follower. If for any reason you don’t want to use the first app you started with anymore, just take your identity and go to another app, everything you have, every fan you gathered will just be at the new place. YOU, no longer the platform, will be the one in control.&lt;/p&gt;
+
+&lt;p&gt;This is how media becomes platformless: you will definitely still be working and interacting through apps, but they cannot kidnap you and your data anymore. They are just applications, not platforms.&lt;/p&gt;
+
+&lt;p&gt;Here I have a diagram showing the current platform-centric or centralized system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/PRO3UWB.png&quot; alt=&quot;A Platform Centric System&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This basically shows how platform holds and, of course, controls all contents and links, which is basically what caused the above problems.&lt;/p&gt;
+
+&lt;p&gt;Here I also have a diagram for a user centric or distributed system.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/zmP7KiB.png&quot; alt=&quot;A User Centric System&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this model, we can see how creators will be controlling their contents, and how users will be controlling their links or subscriptions. That is, creators fully control what to write and users fully control what to see. Platforms will disappear, leaving a place for different applications to compete users with different user experience.&lt;/p&gt;
+
+&lt;p&gt;It is noticeable that both creators and users are considered users, which is becoming more and more common since everyone tends to create some content in these years on social medias. A distributed social media has a diagram like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/WsvuJGp.png&quot; alt=&quot;A Distributed Social Media&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Everyone has his/her/it/their own contents and links, and they control all of them. Still, in order for this thing to work, we need applications. Just like stated before, these applications will be competing with the same set of data but different user experience.&lt;/p&gt;
+
+&lt;p&gt;Under this scenario, we can see how users will be the one in control. But there are problems when we rule out platforms.&lt;/p&gt;
+
+&lt;p&gt;Platforms are not just evils, they have their values and that’s why they survived and thrived in the web 2.0 era. Normally, &lt;strong&gt;with the hope or the fact of gaining more profit&lt;/strong&gt;, they do three things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They build good products&lt;/li&gt;
+  &lt;li&gt;They cover costs for the system&lt;/li&gt;
+  &lt;li&gt;They promote certain services&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This is very straightforward. A platform is generally created by a company, starting with people investing some types of capitals: founders usually invest their time and effort and investors usually invest money. They share the risk of losing everything while also share the possibility of establishing a platform with strong network effect which will bring significant profit afterwards. Generally, they will have to build a good product, pay for it, and promote it for more users. So they do deserve reward in some extend.&lt;/p&gt;
+
+&lt;p&gt;We have to be clear that users won’t choose a service simply due to the fact whether it is centralized, decentralized or distributed. At least that is not how users think now or in a near future. So in order for a distributed system to have massive adoption, we can’t expect less work than what a centralized platform does. Fundamentally, we will still need a economic incentive which will align different types of investments from different stakeholders: a drive that encourages better product(s), a way to cover necessary cost especially when the system costs more than it makes, and rewards for everyone that spreads the words.&lt;/p&gt;
+
+&lt;p&gt;This will be the challenge we, who aim to build a distributed system, all face fighting against centralizations.&lt;/p&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>Media in the internet era has been all about platforms. If anyone tries to start gathering focus and influence by creating contents, no matter it’s your grandma or NYTimes, they need to start by thinking about what platform they want be start with. You want to shoot funny videos? Then TikTok is your place. You want to writing something showing your political point of view? Then Twitter is the place to go. But wait. What if you want your short videos to show on Snapchat and have their users to see them and subscribe to your contents? It turns out that you have to go to Snapchat and start a separate account there, and do it from scratch. And what if you write, say or show something TikTok, Twitter or Instagram don’t like? Well, that’s easy, they just delete that content. If it’s too much beyond the line, then your account will be banned — means that all your contents, all your subscribers and all effort behind them are gone, right after they hit that button.</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
+        <title>Recap All About That RSS3</title>
+        <id>http://0.0.0.0:4321/special-event-s2.html</id>
+        <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/special-event-s2.html" />
+        <published>2021-05-23T00:00:00-07:00</published>
+
+        
+          <updated>2021-05-23T19:16:35-07:00</updated>
+        
+
+        <author>
+          <name>RSS3</name>
+          <uri>https://rss3.io/</uri>
+          <email>contact@rss3.io</email>
+        </author>
+
+        <content type="html" xml:base="http://0.0.0.0:4321/">
+          
+            &lt;p&gt;From nothing to something, this is a story of what was achieved together, with you, with me and with every partner in the community. A huge thank you to everyone who came to the event yesterday. We are in the middle of a tremendous adventure and you are all part of it.  Let’s build the RSS3 Ecosystem together!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/6iZ8lJp.png&quot; alt=&quot;https://i.imgur.com/6iZ8lJp.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;RSS3 Stable v0.1.0 &lt;a href=&quot;https://github.com/NaturalSelectionLabs/RSS3/blob/main/versions/v0.1.0.md&quot;&gt;Release&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;RSS3 Hub &lt;a href=&quot;https://github.com/NaturalSelectionLabs/RSS3-Hub&quot;&gt;Release&lt;/a&gt;
+ Playground Endpoint: https://rss3-hub-playground-6raed.ondigitalocean.app
+ Stable Version: Coming soon&lt;/li&gt;
+  &lt;li&gt;RSS3 Hub SDK
+ &lt;a href=&quot;https://github.com/NaturalSelectionLabs/RSS3-SDK-for-JavaScript&quot;&gt;Javascript Version&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RE:ID Chrome Extension
+ Join us in the fiest take to liberate content&lt;/li&gt;
+  &lt;li&gt;Towards the RSS3 Ecosystem
+    &lt;ul&gt;
+      &lt;li&gt;RSS3 Hub SDK Multi-lang implement&lt;/li&gt;
+      &lt;li&gt;RSS3 native support Blog&lt;/li&gt;
+      &lt;li&gt;RSS3 Feeds Reader&lt;/li&gt;
+      &lt;li&gt;Static Site Generator Extension&lt;/li&gt;
+      &lt;li&gt;Application&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All the best&lt;/p&gt;
+
+&lt;p&gt;Usagi &amp;amp; The RSS3 Team&lt;/p&gt;
+
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>From nothing to something, this is a story of what was achieved together, with you, with me and with every partner in the community. A huge thank you to everyone who came to the event yesterday. We are in the middle of a tremendous adventure and you are all part of it.  Let’s build the RSS3 Ecosystem together!</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>Stage One Roadmap</title>
         <id>http://0.0.0.0:4321/stage-one-roadmap.html</id>
         <link rel="alternate" type="text/html" href="http://0.0.0.0:4321/stage-one-roadmap.html" />
         <published>2021-05-12T00:00:00-07:00</published>
 
         
-          <updated>2021-05-12T22:38:19-07:00</updated>
+          <updated>2021-05-13T23:40:29-07:00</updated>
         
 
         <author>
@@ -62,7 +351,7 @@
 
 &lt;h3 id=&quot;superfollow-dapplet&quot;&gt;SuperFollow Dapplet&lt;/h3&gt;
 
-&lt;p&gt;Together with Mask Network (&lt;a href=&quot;https://mask.io/&quot;&gt;https://mask.io/&lt;/a&gt;), we will create the SuperFollow Dapplett on Twitter which will add the onlyfans feature on Twitter for any Mask and RSS3 users. The Dapplett will be truly decentralized and we expect it to be the first step for distributed content monetization for creators.&lt;/p&gt;
+&lt;p&gt;Together with Mask Network (&lt;a href=&quot;https://mask.io/&quot;&gt;https://mask.io/&lt;/a&gt;), we will create the SuperFollow Dapplett on Twitter which will add the Patreon feature on Twitter for any Mask and RSS3 users. The Dapplett will be truly decentralized and we expect it to be the first step for distributed content monetization for creators.&lt;/p&gt;
 
 &lt;p&gt;These are the core things that we will be working on in the next 6 to 9 months, and more are yet to come.&lt;/p&gt;
 

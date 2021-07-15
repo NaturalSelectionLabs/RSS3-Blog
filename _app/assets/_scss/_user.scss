@@ -101,8 +101,15 @@ a{
 }
 
 .content {
+
   // h2 { font-size: 108%; opacity: .8; }
   h3 { opacity: 1; font-weight: 600;}
+}
+
+.content header h1{
+  hyphens: auto;
+  -moz-hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 
