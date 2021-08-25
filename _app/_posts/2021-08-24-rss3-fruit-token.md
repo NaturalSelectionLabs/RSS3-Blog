@@ -4,6 +4,9 @@ title: RSS3 Fruit Token
 author: joshua
 ---
 
+
+![RSS3 Fruit Token][2]
+
 ## The Story of RSS3
 
 Contents and links make up the foundation of one’s online life: the most popular apps like Twitter, Instagram, Facebook, and TikTok all levarage links to distribute content or vice versa. Their system worked well until they turn into data monopolies who later all that is evil.
@@ -78,3 +81,4 @@ Joshua and the RSS3 Team
 
 
   [1]: https://etherscan.io/token/0xacbe98efe2d4d103e221e04c76d7c55db15c8e89
+  [2]: https://i.imgur.com/SokaJwg.png
