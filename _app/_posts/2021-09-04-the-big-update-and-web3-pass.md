@@ -6,11 +6,6 @@ author: joshua
 
 # The Big Update and Web3 Pass
 
-Created: August 30, 2021 11:51 AM
-Created By: Joshua Meng
-Last Edited By: Atlas Quan
-Last Edited Time: September 5, 2021 7:26 PM
-
 Of the past several weeks, we have made some incredible progress, and are really exited to share with all of you. Each one is a major add-on to the existing RSS3 protocol, and will further help us build toward the world of Web3.
 
 ## The Big Update
